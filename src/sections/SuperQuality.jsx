@@ -1,5 +1,6 @@
 import { shoe8 } from "../assets/images";
 import Button from "../components/Button";
+import { motion } from "framer-motion";
 
 const SuperQuality = () => {
   return (
@@ -25,7 +26,10 @@ const SuperQuality = () => {
         </div>
       </div>
       <div className="flex-1 flex justify-center items-center">
-        <img
+        <motion.img
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
           src={shoe8}
           alt="shoe8"
           width={570}
