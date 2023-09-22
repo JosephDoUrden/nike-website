@@ -1,5 +1,7 @@
 # Nike Website
 
+- **Live Demo:** [nike-website-josephdourden.netlify.app](https://nike-website-josephdourden.netlify.app/)
+
 ![banner](image.png)
 
 Design Credits: Adrian Hajdin - JS Mastery
